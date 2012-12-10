@@ -1,0 +1,28 @@
+OUTPUTS (LEDs):
+===============
+7219_1: DX1..DX5,DY1..DY3 (w/o DPs)
+DPs: (SELS,DX2,DX3,COFI,RX,UNIT,DY2,DY3)
+7219_2: DY4..DY5,DZ1..DZ5,(NX,PY,NY,PZ,NZ,I[XYZ],M[XYZ]) (w/o DPs)
+DPs: (EJOY,RY,HOME,DZ2,DZ3,SELX,RZ,PX)
+7219_3: DF1..DF4,DS1..DS2,DT1,(PT,NT,IF,MF,SELF,CYST,EMPG) (w/o DPs)
+DPs: (COOL,ZERO,SELY,OSTP,RAPR,SELZ,SDEL,FHLD)
+
+
+INPUTS (Buttons):
+=================
+165_1: FO/SO0..FO/SO3,KBC0..KBC2 (KBC2 also selects FO/SO)
+165_2: KBR0..KBR5
+A0: JX
+A1: JY
+A2: JZ
+
+Keyboard Matrix:
+================
+KBC  | 000	001	010	011-111: unused
+---------------------------------------------------
+KBR0 | COOL	ZERO	SELY	
+KBR1 | OSTP	ZRET	SELZ	
+KBR2 | RSET	FHLD	SELF	
+KBR3 | CYST	EMPG	SELS
+KBR4 | SDEL	COFI	EJOY
+KBR5 | HOME	SELX	RAPR

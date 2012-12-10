@@ -1,0 +1,34 @@
+# Eagle so-called project file (does not contain any project information)
+*.epf
+# Eagle description file
+DESCRIPTION
+
+# Eagle backup-on-save
+*.[bs]#[1-9]
+
+# Generated Specctra interface files
+*.dsn
+*.scr
+
+## Manufacturing files
+# Drill & Outline (for automated de-panelizing)
+*.do
+# Drill rack
+*.dri
+# Aperture wheel
+*.gpi
+# Gerber
+*.GTL
+*.GBL
+*.GTS
+*.GBS
+*.GTP
+*.GBP
+*.GTO
+*.GBO
+*.GML
+# Excellon
+*.TXT
+
+# Eagle auto-router statistics
+*.pro
