@@ -15124,6 +15124,11 @@ by exp-project-lbr.ulp</description>
 <wire x1="124.46" y1="162.56" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="124.46" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
+<wire x1="396.24" y1="139.7" x2="419.1" y2="139.7" width="0.1524" layer="91"/>
+<label x="411.48" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!Y_HOME" class="0">
 <segment>
@@ -15133,6 +15138,11 @@ by exp-project-lbr.ulp</description>
 <wire x1="127" y1="160.02" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
+<wire x1="396.24" y1="96.52" x2="419.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="411.48" y="96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!Z_HOME" class="0">
 <segment>
@@ -15141,6 +15151,11 @@ by exp-project-lbr.ulp</description>
 <wire x1="134.62" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="157.48" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <label x="129.54" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
+<wire x1="396.24" y1="53.34" x2="419.1" y2="53.34" width="0.1524" layer="91"/>
+<label x="411.48" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPINDLE" class="0">
@@ -15905,27 +15920,6 @@ by exp-project-lbr.ulp</description>
 <pinref part="IC11" gate="A" pin="QD"/>
 <wire x1="322.58" y1="35.56" x2="332.74" y2="35.56" width="0.1524" layer="91"/>
 <label x="322.58" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="!X_LIMIT" class="0">
-<segment>
-<pinref part="IC8" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
-<wire x1="396.24" y1="139.7" x2="419.1" y2="139.7" width="0.1524" layer="91"/>
-<label x="411.48" y="139.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="!Y_LIMIT" class="0">
-<segment>
-<pinref part="IC9" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
-<wire x1="396.24" y1="96.52" x2="419.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="411.48" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="!Z_LIMIT" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
-<wire x1="396.24" y1="53.34" x2="419.1" y2="53.34" width="0.1524" layer="91"/>
-<label x="411.48" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO_1" class="0">

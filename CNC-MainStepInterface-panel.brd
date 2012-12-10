@@ -123,9 +123,9 @@
 <text x="64.77" y="71.12" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">BOTC</text>
 <text x="58.42" y="71.12" size="1.778" layer="21" font="vector" ratio="15">TOPS</text>
 <text x="64.77" y="71.12" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">BOTS</text>
-<text x="11.43" y="40.005" size="1.778" layer="21" font="vector" ratio="15">CNC-CP-MSB-20121119</text>
+<text x="11.43" y="39.878" size="1.778" layer="21" font="vector" ratio="15">CNC-CP-MSB-20121119</text>
 <text x="3.81" y="63.5" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">20121119</text>
-<text x="34.29" y="26.67" size="1.778" layer="21" font="vector" ratio="15">(C) 2012 Radu - Eosif Mihailescu</text>
+<text x="34.29" y="26.924" size="1.778" layer="21" font="vector" ratio="15">(C) 2012 Radu - Eosif Mihailescu</text>
 <text x="1.27" y="64.77" size="1.778" layer="21" font="vector" ratio="15">CTL</text>
 <text x="1.27" y="74.93" size="1.778" layer="21" font="vector" ratio="15">DRO</text>
 <text x="92.075" y="79.121" size="1.778" layer="21" font="vector" ratio="15">+</text>
@@ -2615,13 +2615,14 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="2"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="JSERVOOUT" pad="10"/>
-<wire x1="50.8" y1="22.86" x2="49.0981" y2="22.86" width="0.254" layer="1"/>
+<wire x1="49.0981" y1="23.8468" x2="49.0981" y2="23.495" width="0.254" layer="1"/>
+<wire x1="49.0981" y1="23.495" x2="49.7331" y2="22.86" width="0.254" layer="1"/>
+<wire x1="49.7331" y1="22.86" x2="50.8" y2="22.86" width="0.254" layer="1"/>
 <wire x1="9.01" y1="34.93" x2="9.8868" y2="34.0532" width="0.254" layer="1"/>
 <wire x1="9.8868" y1="34.0532" x2="25.1861" y2="34.0532" width="0.254" layer="1"/>
 <wire x1="25.1861" y1="34.0532" x2="30.5946" y2="28.6447" width="0.254" layer="1"/>
 <wire x1="30.5946" y1="28.6447" x2="44.3002" y2="28.6447" width="0.254" layer="1"/>
 <wire x1="44.3002" y1="28.6447" x2="49.0981" y2="23.8468" width="0.254" layer="1"/>
-<wire x1="49.0981" y1="23.8468" x2="49.0981" y2="22.86" width="0.254" layer="1"/>
 <wire x1="66.04" y1="22.86" x2="64.3381" y2="22.86" width="0.254" layer="1"/>
 <wire x1="50.8" y1="22.86" x2="52.5019" y2="22.86" width="0.254" layer="1"/>
 <wire x1="52.5019" y1="22.86" x2="53.5434" y2="21.8185" width="0.254" layer="1"/>
@@ -2921,12 +2922,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="!X_HOME">
 <contactref element="IC5" pad="16"/>
+<contactref element="IC8" pad="5"/>
+<wire x1="43.18" y1="15.24" x2="31.75" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!Y_HOME">
 <contactref element="IC5" pad="17"/>
+<contactref element="IC9" pad="5"/>
+<wire x1="43.18" y1="17.78" x2="17.78" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!Z_HOME">
 <contactref element="IC5" pad="18"/>
+<contactref element="IC10" pad="5"/>
+<wire x1="43.18" y1="20.32" x2="45.72" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPINDLE">
 <contactref element="IC4" pad="9"/>
@@ -3801,15 +3808,6 @@ design rules under a new name.</description>
 <wire x1="26.3796" y1="71.2063" x2="30.3318" y2="75.1585" width="0.254" layer="1"/>
 <wire x1="30.3318" y1="75.1585" x2="42.9766" y2="75.1585" width="0.254" layer="1"/>
 <wire x1="42.9766" y1="75.1585" x2="44.0181" y2="76.2" width="0.254" layer="1"/>
-</signal>
-<signal name="!X_LIMIT">
-<contactref element="IC8" pad="5"/>
-</signal>
-<signal name="!Y_LIMIT">
-<contactref element="IC9" pad="5"/>
-</signal>
-<signal name="!Z_LIMIT">
-<contactref element="IC10" pad="5"/>
 </signal>
 <signal name="MISO_1">
 <contactref element="IC8" pad="8"/>
