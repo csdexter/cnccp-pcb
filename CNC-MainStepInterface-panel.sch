@@ -14263,7 +14263,7 @@ by exp-project-lbr.ulp</description>
 </attributes>
 <variantdefs>
 <variantdef name="ProMini"/>
-<variantdef name="20MHz"/>
+<variantdef name="20MHz" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -14339,7 +14339,9 @@ by exp-project-lbr.ulp</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
 <part name="IC6" library="SparkFun-DigitalIC-mine" deviceset="ATTINY2313A" device="-PU"/>
-<part name="IC1A" library="SparkFun-Boards-mine" deviceset="ARDUINO_MINI" device=""/>
+<part name="IC1A" library="SparkFun-Boards-mine" deviceset="ARDUINO_MINI" device="">
+<variant name="20MHz" populate="no"/>
+</part>
 <part name="U$1" library="Si4735_Breakout-v10" deviceset="SPARKFUN_OSHW-LOGO" device="L"/>
 </parts>
 <sheets>
