@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -105,7 +105,20 @@
 <description>&lt;b&gt;CNC Control Panel - Main + Stepper + Interface&lt;/b&gt;
 
 &lt;p&gt;&lt;i&gt;Version 1.0 (20121119)&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;See individual components for detailed description&lt;/p&gt;</description>
+&lt;p&gt;&lt;ul&gt;&lt;li&gt;Acts as the brain for the  whole system&lt;/li&gt;
+&lt;li&gt;Connects to other boards via "slots" in the form of JBUS connectors which carry SPI, system clock and one interrupt line&lt;/li&gt;
+&lt;li&gt;Runs the upload interface via serial to USB-CDC-ACM adapter plugged into console port&lt;/li&gt;
+&lt;li&gt;One dedicated MCU per axis running all the physics for each movement&lt;/li&gt;
+&lt;li&gt;Also reads the limit switches&lt;/li&gt;
+&lt;li&gt;Can do linear or circular movement&lt;/li&gt;
+&lt;li&gt;Can buffer the next move while the current one is executing&lt;/li&gt;
+&lt;li&gt;Can halt movement in progress&lt;/li&gt;
+&lt;li&gt;Passthrough topology (external LPT master support)&lt;/li&gt;
+&lt;li&gt;Crossbar switch using buffers&lt;/li&gt;
+&lt;li&gt;MCU as crossbar switch controller&lt;/li&gt;
+&lt;li&gt;Charge pump detection/generation&lt;/li&gt;
+&lt;li&gt;E-Stop detection&lt;/li&gt;
+&lt;li&gt;LED control for current master UI&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <libraries>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;

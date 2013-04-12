@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -19968,12 +19968,12 @@ by exp-project-lbr.ulp</description>
 <wire x1="132.08" y1="129.54" x2="132.08" y2="91.44" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="SEGDA,SEGDB,SEGDC,SEGDD,SEGDE,SEGDF,SEGDG,SEGDDP,SRE7,SRF0">
+<bus name="SEGAA,SEGAB,SEGAC,SEGAD,SEGAE,SEGAF,SEGAG,SEGADP">
 <segment>
 <wire x1="114.3" y1="73.66" x2="114.3" y2="58.42" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="DIGA6">
+<bus name="DIGA[6..7]">
 <segment>
 <wire x1="101.6" y1="78.74" x2="139.7" y2="78.74" width="0.762" layer="92"/>
 <label x="109.22" y="81.28" size="1.778" layer="95" rot="R180"/>
@@ -19985,7 +19985,7 @@ by exp-project-lbr.ulp</description>
 <label x="182.88" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </bus>
-<bus name="DIGA[0..3]">
+<bus name="DIGA[0..3],DIGA7">
 <segment>
 <wire x1="109.22" y1="38.1" x2="205.74" y2="38.1" width="0.762" layer="92"/>
 <label x="121.92" y="40.64" size="1.778" layer="95" rot="R180"/>
