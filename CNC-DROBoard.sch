@@ -18334,8 +18334,8 @@ by exp-project-lbr.ulp</description>
 <part name="KRZ" library="radu-collected" deviceset="B3W90*" device="" technology="00G1G"/>
 <part name="IC2" library="maxim" deviceset="MAX7219CNG" device=""/>
 <part name="IC3" library="maxim" deviceset="MAX7219CNG" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="33k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="33k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="27k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="27k"/>
 <part name="+5V" library="supply1" deviceset="VCC" device=""/>
 <part name="+5V1" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF, 63V"/>

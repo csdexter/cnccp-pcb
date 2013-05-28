@@ -4,7 +4,7 @@
 DESCRIPTION
 
 # Eagle backup-on-save
-*.[lbs]#[1-9]
+*.[lbs]#[#1-9]
 
 # Generated Specctra interface files
 *.dsn
@@ -32,3 +32,6 @@ DESCRIPTION
 
 # Eagle auto-router statistics
 *.pro
+
+# Eagle design rules dumps
+*.dru

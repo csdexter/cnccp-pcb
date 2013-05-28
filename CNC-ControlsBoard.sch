@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -19828,7 +19828,7 @@ by exp-project-lbr.ulp</description>
 <part name="+5V1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="maxim" deviceset="MAX7219CNG" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="33k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="27k"/>
 <part name="+5V" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF, 63V"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF, 16V"/>
@@ -20373,18 +20373,17 @@ by exp-project-lbr.ulp</description>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="1Z"/>
-<wire x1="12.7" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="48.26" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<junction x="22.86" y="48.26"/>
-<pinref part="IC3" gate="G$1" pin="3Z"/>
-<wire x1="22.86" y1="45.72" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="2Z"/>
-<wire x1="25.4" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<junction x="22.86" y="45.72"/>
-<label x="12.7" y="48.26" size="1.778" layer="95"/>
+<wire x1="12.7" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<label x="12.7" y="66.04" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="S2"/>
+<wire x1="25.4" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="S1"/>
+<wire x1="25.4" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="73.66" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<junction x="22.86" y="66.04"/>
+<wire x1="22.86" y1="66.04" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="S3"/>
+<wire x1="22.86" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -20943,9 +20942,10 @@ by exp-project-lbr.ulp</description>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="S3"/>
-<wire x1="25.4" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="15.24" y="58.42" size="1.778" layer="95"/>
+<wire x1="17.78" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="43.18" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="3Z"/>
+<wire x1="25.4" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI_INT" class="0">
@@ -20955,9 +20955,9 @@ by exp-project-lbr.ulp</description>
 <label x="63.5" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="S1"/>
-<wire x1="25.4" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="15.24" y="73.66" size="1.778" layer="95"/>
+<label x="12.7" y="48.26" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="1Z"/>
+<wire x1="15.24" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SS_INT" class="0">
@@ -20989,9 +20989,10 @@ by exp-project-lbr.ulp</description>
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="S2"/>
-<wire x1="25.4" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="15.24" y="66.04" size="1.778" layer="95"/>
+<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<label x="12.7" y="45.72" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="2Z"/>
+<wire x1="17.78" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="KBR0" class="0">
