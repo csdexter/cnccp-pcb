@@ -6,45 +6,45 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -450,6 +450,85 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="-5.445" y1="1.5" x2="-5.445" y2="-1.5" width="0.127" layer="21"/>
 <text x="-5.08" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-5.08" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="GF-126-0159">
+<description>&lt;b&gt;CW Industries GF-126-0159 DPDT slide switch in ON-ON configuration.&lt;/b&gt;</description>
+<pad name="P$1" x="0" y="0" drill="1.778"/>
+<pad name="P$2" x="4.5974" y="0" drill="1.778"/>
+<pad name="P$3" x="9.1948" y="0" drill="1.778"/>
+<pad name="P$4" x="0" y="6.9088" drill="1.778"/>
+<pad name="P$5" x="4.5974" y="6.9088" drill="1.778"/>
+<pad name="P$6" x="9.1948" y="6.9088" drill="1.778"/>
+<text x="-1.27" y="10.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.54" y1="8.89" x2="11.43" y2="8.89" width="0.127" layer="21"/>
+<wire x1="11.43" y1="8.89" x2="11.43" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="8.89" width="0.127" layer="21"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="3.81" width="0.127" layer="21"/>
+<wire x1="4.445" y1="3.81" x2="3.81" y2="3.175" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="0.635" y2="1.905" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.54" x2="8.255" y2="1.905" width="0.127" layer="21"/>
+</package>
+<package name="163-501*-E">
+<description>&lt;b&gt;Kobiconn 163-501[01]-E DC power jack&lt;/b&gt;</description>
+<wire x1="11.9888" y1="3.5052" x2="11.9888" y2="-3.5052" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.5052" x2="0" y2="3.5052" width="0.127" layer="51"/>
+<hole x="7.0104" y="0" drill="1.1938"/>
+<hole x="4.4958" y="2.5019" drill="1.1938"/>
+<hole x="4.4958" y="-2.5019" drill="1.1938"/>
+<pad name="P$1" x="4.4958" y="0" drill="1.524"/>
+<pad name="P$2" x="7.0104" y="2.5019" drill="1.524"/>
+<pad name="P$3" x="7.0104" y="-2.5019" drill="1.524"/>
+<pad name="P$4" x="9.4996" y="0" drill="1.524" shape="square"/>
+<text x="0" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="11.43" y1="-3.5052" x2="11.938" y2="3.5052" layer="21"/>
+<text x="1.27" y="-2.54" size="1.27" layer="21">+</text>
+<wire x1="8.89" y1="3.5052" x2="11.9888" y2="3.5052" width="0.127" layer="21"/>
+<wire x1="11.9888" y1="-3.5052" x2="8.89" y2="-3.5052" width="0.127" layer="21"/>
+<wire x1="0" y1="3.5052" x2="1.27" y2="3.5052" width="0.127" layer="51"/>
+<wire x1="1.27" y1="3.5052" x2="3.175" y2="3.5052" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.5052" x2="1.27" y2="-3.5052" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.5052" x2="0" y2="-3.5052" width="0.127" layer="51"/>
+<rectangle x1="1.27" y1="-0.635" x2="2.54" y2="0.635" layer="21"/>
+<rectangle x1="0" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+</package>
+<package name="FK20*">
+<description>TDK FK20* series MLCC leaded capacitor.</description>
+<pad name="P$1" x="-2.5" y="0" drill="0.7"/>
+<pad name="P$2" x="2.5" y="0" drill="0.7"/>
+<wire x1="-2.7" y1="2" x2="2.8" y2="2" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-2" x2="-2.7" y2="-2" width="0.127" layer="21"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.7" y1="-2" x2="-2.7" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="2" x2="2.8" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="1" x2="-2.7" y2="2" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="-2" width="0.127" layer="21"/>
+<rectangle x1="-0.7" y1="-1" x2="-0.2" y2="1" layer="21"/>
+<rectangle x1="0.2" y1="-1" x2="0.7" y2="1" layer="21"/>
+<wire x1="-0.7" y1="0" x2="-1.5" y2="0" width="0.127" layer="27"/>
+<wire x1="0.7" y1="0" x2="1.5" y2="0" width="0.127" layer="27"/>
+</package>
+<package name="FK26*">
+<description>TDK FK26* MLCC leaded capacitor.</description>
+<pad name="P$1" x="-2.5" y="0" drill="0.7"/>
+<pad name="P$2" x="2.5" y="0" drill="0.7"/>
+<wire x1="-2.7" y1="1.75" x2="2.8" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-1.75" x2="-2.7" y2="-1.75" width="0.127" layer="21"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.7" y1="-1.75" x2="-2.7" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="1.75" x2="2.8" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="1" x2="-2.7" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-1" x2="2.8" y2="-1.75" width="0.127" layer="21"/>
+<rectangle x1="-0.7" y1="-1" x2="-0.2" y2="1" layer="21"/>
+<rectangle x1="0.2" y1="-1" x2="0.7" y2="1" layer="21"/>
+<wire x1="-0.7" y1="0" x2="-1.5" y2="0" width="0.127" layer="27"/>
+<wire x1="0.7" y1="0" x2="1.5" y2="0" width="0.127" layer="27"/>
 </package>
 </packages>
 <symbols>
@@ -929,14 +1008,53 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <vertex x="3.048" y="1.778"/>
 </polygon>
 </symbol>
-<symbol name="_GENERIC_DPDTSWITCH">
-<description>Generic dual-pole, double-throw switch in ON-ON configuration.</description>
-<pin name="P$1" x="-7.62" y="10.16" visible="off" length="middle" direction="pas"/>
-<pin name="P$2" x="15.24" y="15.24" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="P$3" x="15.24" y="5.08" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="P$4" x="-7.62" y="-10.16" visible="off" length="middle" direction="pas"/>
-<pin name="P$5" x="15.24" y="-5.08" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="P$6" x="15.24" y="-15.24" visible="off" length="middle" direction="pas" rot="R180"/>
+<symbol name="_GENERIC_SPDTSWITCH">
+<description>Generic SPDT switch symbol in ON-ON configuration.</description>
+<circle x="-5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="2.54" y2="1.905" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="-5.08" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<circle x="5.08" y="-2.54" radius="0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="P$3" x="10.16" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="_GENERIC_DCJACK">
+<description>Generic auto-disconnecting DC jack symbol.</description>
+<pin name="+" x="2.54" y="5.08" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="DISCONNECT" x="2.54" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="-" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-5.08" y2="5.08" width="1.27" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-11.43" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="2.54" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-7.62" y="0"/>
+<vertex x="-8.382" y="1.27"/>
+<vertex x="-6.858" y="1.27"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-3.81" y="3.81" curve="90"/>
+<vertex x="-2.54" y="5.08" curve="90"/>
+<vertex x="-3.81" y="6.35" curve="90"/>
+<vertex x="-5.08" y="5.08" curve="90"/>
+</polygon>
+</symbol>
+<symbol name="_GENERIC_CAPACITOR_UNPOLARIZED">
+<description>Generic unpolarized capacitor symbol</description>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<rectangle x1="0" y1="-2.032" x2="1.016" y2="2.032" layer="94"/>
+<rectangle x1="1.524" y1="-2.032" x2="2.54" y2="2.032" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1324,6 +1442,88 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GF-126-0159" prefix="K">
+<description>&lt;b&gt;CW Industries GF-126-0159 DPDT slide switch&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="_GENERIC_SPDTSWITCH" x="0" y="12.7" swaplevel="1"/>
+<gate name="-2" symbol="_GENERIC_SPDTSWITCH" x="0" y="-2.54" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="GF-126-0159">
+<connects>
+<connect gate="-1" pin="P$1" pad="P$2"/>
+<connect gate="-1" pin="P$2" pad="P$1"/>
+<connect gate="-1" pin="P$3" pad="P$3"/>
+<connect gate="-2" pin="P$1" pad="P$5"/>
+<connect gate="-2" pin="P$2" pad="P$4"/>
+<connect gate="-2" pin="P$3" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="163-501*-E" prefix="J">
+<description>&lt;b&gt;Kobiconn 163-501[01]-E auto-disconnecting DC power jack&lt;/b&gt;
+&lt;p&gt;163-5010-E has a 2mm center pin while 163-5011-E has a 2.5mm one&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="_GENERIC_DCJACK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="163-501*-E">
+<connects>
+<connect gate="G$1" pin="+" pad="P$4"/>
+<connect gate="G$1" pin="-" pad="P$1"/>
+<connect gate="G$1" pin="DISCONNECT" pad="P$2 P$3"/>
+</connects>
+<technologies>
+<technology name="0"/>
+<technology name="1"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FK20*" prefix="C" uservalue="yes">
+<description>&lt;b&gt;TDK FK20* MLCC leaded capacitor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="_GENERIC_CAPACITOR_UNPOLARIZED" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="FK20*">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="C0G"/>
+<technology name="X5R"/>
+<technology name="X7R"/>
+<technology name="X7S"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FK26*" prefix="C" uservalue="yes">
+<description>&lt;b&gt;TDK FK26* MLCC leaded capacitor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="_GENERIC_CAPACITOR_UNPOLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FK26*">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="C0G"/>
+<technology name="X5R"/>
+<technology name="X7R"/>
+<technology name="X7S"/>
 </technologies>
 </device>
 </devices>
