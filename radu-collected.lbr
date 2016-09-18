@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1830,49 +1830,49 @@ body 7.63 mm</description>
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.127" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="0" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="0" width="0.127" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.127" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="12.7" y2="5.08" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="12.7" y2="-5.08" width="0.127" layer="94"/>
 <circle x="10.16" y="-5.08" radius="0.381" width="0.762" layer="94"/>
 <circle x="7.62" y="5.08" radius="0.381" width="0.762" layer="94"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-7.62" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.127" layer="94"/>
 <pin name="TXD" x="-12.7" y="5.08" visible="pad" length="short" direction="in"/>
 <pin name="RXD" x="-12.7" y="-5.08" visible="pad" length="short" direction="out"/>
 <pin name="CANH" x="15.24" y="5.08" visible="pad" length="short" rot="R180"/>
@@ -1881,36 +1881,36 @@ body 7.63 mm</description>
 <pin name="VCC" x="-5.08" y="15.24" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="VBUS" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="15.24" y="-10.16" length="short" direction="pwr" rot="R180"/>
-<text x="-10.16" y="-15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="MCP2515">
 <description>&lt;b&gt;Microchip MCP2515 CANBus Controller with SPI Interface&lt;/b&gt;</description>
-<pin name="TXD" x="-15.24" y="20.32" length="short" direction="out"/>
-<pin name="RXD" x="-15.24" y="15.24" length="short" direction="in"/>
-<pin name="CLKO/SOF" x="-15.24" y="10.16" length="short" direction="out"/>
-<pin name="!TX0RTS" x="-15.24" y="5.08" length="short" direction="in" function="dot"/>
-<pin name="!TX1RTS" x="-15.24" y="0" length="short" direction="in" function="dot"/>
-<pin name="!TX2RTS" x="-15.24" y="-5.08" length="short" direction="in" function="dot"/>
-<pin name="OSC1/CLKI" x="-15.24" y="-10.16" length="short" direction="pas" function="clk"/>
-<pin name="OSC2" x="-15.24" y="-15.24" length="short" direction="pas"/>
-<pin name="GND" x="-15.24" y="-20.32" length="short" direction="pwr"/>
-<pin name="!RX1BF" x="15.24" y="-20.32" length="short" direction="out" function="dot" rot="R180"/>
-<pin name="!RX0BF" x="15.24" y="-15.24" length="short" direction="out" function="dot" rot="R180"/>
-<pin name="!INT" x="15.24" y="-10.16" length="short" direction="out" function="dot" rot="R180"/>
-<pin name="SCK" x="15.24" y="-5.08" length="short" direction="in" function="clk" rot="R180"/>
-<pin name="MOSI" x="15.24" y="0" length="short" direction="in" rot="R180"/>
-<pin name="MISO" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="!CS" x="15.24" y="10.16" length="short" direction="in" function="dot" rot="R180"/>
-<pin name="!RESET" x="15.24" y="15.24" length="short" direction="in" function="dot" rot="R180"/>
-<pin name="VCC" x="15.24" y="20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="TXD" x="-17.78" y="20.32" length="middle" direction="out"/>
+<pin name="RXD" x="-17.78" y="15.24" length="middle" direction="in"/>
+<pin name="CLKO/SOF" x="-17.78" y="10.16" length="middle" direction="out"/>
+<pin name="!TX0RTS" x="-17.78" y="5.08" length="middle" direction="in" function="dot"/>
+<pin name="!TX1RTS" x="-17.78" y="0" length="middle" direction="in" function="dot"/>
+<pin name="!TX2RTS" x="-17.78" y="-5.08" length="middle" direction="in" function="dot"/>
+<pin name="OSC1/CLKI" x="-17.78" y="-10.16" length="middle" direction="pas" function="clk"/>
+<pin name="OSC2" x="-17.78" y="-15.24" length="middle" direction="pas"/>
+<pin name="GND" x="-17.78" y="-20.32" length="middle" direction="pwr"/>
+<pin name="!RX1BF" x="17.78" y="-20.32" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="!RX0BF" x="17.78" y="-15.24" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="!INT" x="17.78" y="-10.16" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="SCK" x="17.78" y="-5.08" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="MOSI" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="MISO" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="!CS" x="17.78" y="10.16" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="!RESET" x="17.78" y="15.24" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="VCC" x="17.78" y="20.32" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-12.7" y1="22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
 <wire x1="3.81" y1="22.606" x2="-3.81" y2="22.606" width="0.254" layer="94" curve="-180"/>
-<text x="-10.16" y="25.4" size="2.54" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-27.94" size="2.54" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="25.4" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
