@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1472,6 +1472,24 @@ body 7.63 mm</description>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="51"/>
 <wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="51"/>
 </package>
+<package name="UMAX8">
+<description>&lt;b&gt;Microchip 8-lead &amp;micro;MAX&lt;/b&gt;</description>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.5" x2="-2.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
+<smd name="4" x="-2.15" y="-0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="3" x="-2.15" y="-0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.15" y="0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="1" x="-2.15" y="0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="8" x="2.15" y="0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="7" x="2.15" y="0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="6" x="2.15" y="-0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="5" x="2.15" y="-0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="-2" y2="2" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="KINGBRIGHT_DE4">
@@ -2310,6 +2328,22 @@ body 7.63 mm</description>
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
 <pin name="C1" x="-20.32" y="-7.62" visible="pin" length="middle" direction="in"/>
 <pin name="C2" x="-20.32" y="-10.16" visible="pin" length="middle" direction="in"/>
+</symbol>
+<symbol name="MAX9933">
+<description>&lt;b&gt;Maxim MAX993&lt;/b&gt;
+&lt;p&gt;RF detector&lt;/p&gt;</description>
+<pin name="RFIN" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="!SHDN" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="GND" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="CLPF" x="10.16" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="OUT" x="10.16" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="10.16" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<text x="-10.16" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3226,6 +3260,28 @@ body 7.63 mm</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX9933" prefix="U">
+<description>&lt;b&gt;Microchip MAX9933, RF power detector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX9933" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="UA+T" package="UMAX8">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="2"/>
+<connect gate="G$1" pin="CLPF" pad="4"/>
+<connect gate="G$1" pin="GND" pad="3 5"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="RFIN" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="BG"/>
+<technology name="E"/>
 </technologies>
 </device>
 </devices>
