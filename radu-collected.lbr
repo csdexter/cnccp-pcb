@@ -1515,6 +1515,71 @@ body 7.63 mm</description>
 <text x="-5" y="4.75" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5" y="-6.25" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SO24W">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 7.5 mm/JEDEC MO-119AA</description>
+<wire x1="-7.895" y1="5.9" x2="7.895" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="7.895" y1="-5.9" x2="-7.895" y2="-5.9" width="0.1998" layer="39"/>
+<wire x1="-7.895" y1="-5.9" x2="-7.895" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="7.78" y1="-3.7" x2="-7.78" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-7.78" y1="-3.7" x2="-7.78" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-7.78" y1="-3.2" x2="-7.78" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="-7.78" y1="3.7" x2="7.78" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="7.78" y1="-3.2" x2="-7.78" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="7.78" y1="3.7" x2="7.78" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="7.78" y1="-3.2" x2="7.78" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="7.895" y1="5.9" x2="7.895" y2="-5.9" width="0.1998" layer="39"/>
+<smd name="2" x="-5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="-5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="-6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-6.985" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.985" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-7.2301" y1="-5.32" x2="-6.7399" y2="-3.8001" layer="51"/>
+<rectangle x1="-5.9601" y1="-5.32" x2="-5.4699" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
+<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
+<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
+<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
+<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
+<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
+<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
+<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
+<rectangle x1="5.4699" y1="-5.32" x2="5.9601" y2="-3.8001" layer="51"/>
+<rectangle x1="6.7399" y1="-5.32" x2="7.2301" y2="-3.8001" layer="51"/>
+<rectangle x1="6.7399" y1="3.8001" x2="7.2301" y2="5.32" layer="51"/>
+<rectangle x1="5.4699" y1="3.8001" x2="5.9601" y2="5.32" layer="51"/>
+<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
+<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
+<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
+<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
+<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
+<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
+<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
+<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
+<rectangle x1="-5.9601" y1="3.8001" x2="-5.4699" y2="5.32" layer="51"/>
+<rectangle x1="-7.2301" y1="3.8001" x2="-6.7399" y2="5.32" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="KINGBRIGHT_DE4">
@@ -2385,6 +2450,37 @@ body 7.63 mm</description>
 <pin name="-" x="0" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
 <text x="2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="96" rot="R180">&gt;VALUE</text>
+</symbol>
+<symbol name="MTS62C19A">
+<description>&lt;b&gt;Microchip MTS62C19A&lt;/b&gt;
+&lt;p&gt;Stepper driver&lt;/p&gt;</description>
+<pin name="OUT1A" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="OUT2A" x="17.78" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="SENSE2" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="COMPIN2" x="17.78" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="OUT2B" x="17.78" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-17.78" y="-25.4" length="middle" direction="pwr"/>
+<pin name="I02" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="I12" x="-17.78" y="-10.16" length="middle" direction="in"/>
+<pin name="PHASE2" x="-17.78" y="-12.7" length="middle" direction="in"/>
+<pin name="VREF2" x="-17.78" y="-20.32" length="middle" direction="pas"/>
+<pin name="RC2" x="-17.78" y="-17.78" length="middle" direction="pas"/>
+<pin name="VCC" x="17.78" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="RC1" x="-17.78" y="7.62" length="middle" direction="pas"/>
+<pin name="VREF1" x="-17.78" y="5.08" length="middle" direction="pas"/>
+<pin name="PHASE1" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="I11" x="-17.78" y="15.24" length="middle" direction="in"/>
+<pin name="I01" x="-17.78" y="17.78" length="middle" direction="in"/>
+<pin name="OUT1B" x="17.78" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="COMPIN1" x="17.78" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SENSE1" x="17.78" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="VLOAD" x="17.78" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<text x="-10.16" y="-33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="30.48" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3355,6 +3451,43 @@ body 7.63 mm</description>
 <technology name="5"/>
 <technology name="6"/>
 <technology name="7"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTS62C19A" prefix="U">
+<description>&lt;b&gt;Microchip MTS62C19A&lt;/b&gt;
+&lt;p&gt;Stepper driver&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MTS62C19A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO24W">
+<connects>
+<connect gate="G$1" pin="COMPIN1" pad="22"/>
+<connect gate="G$1" pin="COMPIN2" pad="4"/>
+<connect gate="G$1" pin="GND" pad="6 7 18 19"/>
+<connect gate="G$1" pin="I01" pad="20"/>
+<connect gate="G$1" pin="I02" pad="8"/>
+<connect gate="G$1" pin="I11" pad="17"/>
+<connect gate="G$1" pin="I12" pad="9"/>
+<connect gate="G$1" pin="OUT1A" pad="1"/>
+<connect gate="G$1" pin="OUT1B" pad="21"/>
+<connect gate="G$1" pin="OUT2A" pad="2"/>
+<connect gate="G$1" pin="OUT2B" pad="5"/>
+<connect gate="G$1" pin="PHASE1" pad="16"/>
+<connect gate="G$1" pin="PHASE2" pad="10"/>
+<connect gate="G$1" pin="RC1" pad="14"/>
+<connect gate="G$1" pin="RC2" pad="12"/>
+<connect gate="G$1" pin="SENSE1" pad="23"/>
+<connect gate="G$1" pin="SENSE2" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="13"/>
+<connect gate="G$1" pin="VLOAD" pad="24"/>
+<connect gate="G$1" pin="VREF1" pad="15"/>
+<connect gate="G$1" pin="VREF2" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
