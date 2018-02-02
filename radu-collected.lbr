@@ -1580,6 +1580,24 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <rectangle x1="-5.9601" y1="3.8001" x2="-5.4699" y2="5.32" layer="51"/>
 <rectangle x1="-7.2301" y1="3.8001" x2="-6.7399" y2="5.32" layer="51"/>
 </package>
+<package name="SOIC10">
+<description>&lt;b&gt;SOIC10&lt;/b&gt;</description>
+<smd name="1" x="-2" y="-2.7" dx="0.58" dy="1.18" layer="1"/>
+<smd name="2" x="-1" y="-2.7" dx="0.58" dy="1.18" layer="1"/>
+<smd name="3" x="0" y="-2.7" dx="0.58" dy="1.18" layer="1"/>
+<smd name="4" x="1" y="-2.7" dx="0.58" dy="1.18" layer="1"/>
+<smd name="5" x="2" y="-2.7" dx="0.58" dy="1.18" layer="1"/>
+<smd name="6" x="2" y="2.62" dx="0.58" dy="1.18" layer="1"/>
+<smd name="7" x="1" y="2.62" dx="0.58" dy="1.18" layer="1"/>
+<smd name="8" x="0" y="2.62" dx="0.58" dy="1.18" layer="1"/>
+<smd name="9" x="-1" y="2.62" dx="0.58" dy="1.18" layer="1"/>
+<smd name="10" x="-2" y="2.62" dx="0.58" dy="1.18" layer="1"/>
+<wire x1="2.4" y1="1.5" x2="2.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-0.5" x2="-2.5" y2="1.5" width="0.127" layer="21"/>
+<rectangle x1="-3" y1="-1.5" x2="-1.5" y2="-0.5" layer="21"/>
+<text x="-3" y="-3.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4" y="-3.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="KINGBRIGHT_DE4">
@@ -2481,6 +2499,25 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LV8549M">
+<description>&lt;b&gt;ON LV8549M&lt;/b&gt;
+&lt;p&gt;Stepper driver&lt;/p&gt;</description>
+<pin name="VCC" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="ENA" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="IN1" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="IN2" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT4" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="OUT3" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="OUT2" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="OUT1" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3485,6 +3522,31 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <connect gate="G$1" pin="VLOAD" pad="24"/>
 <connect gate="G$1" pin="VREF1" pad="15"/>
 <connect gate="G$1" pin="VREF2" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LV8549M" prefix="U">
+<description>&lt;b&gt;ON LV8549M&lt;/b&gt;
+&lt;p&gt;Stepper driver&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LV8549M" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOIC10">
+<connects>
+<connect gate="G$1" pin="ENA" pad="2"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="IN1" pad="3"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="10"/>
+<connect gate="G$1" pin="OUT2" pad="9"/>
+<connect gate="G$1" pin="OUT3" pad="8"/>
+<connect gate="G$1" pin="OUT4" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
